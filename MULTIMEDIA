@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widh=device-width, initial-scale=1.0">
+    <title>Contenido multimedia</title>
+     <style>
+  body {
+    background-color: lightgrey;
+  }
+</style>
+</head>
+<body>
+    <h3>Imagenes</h3>
+    <img src="../HTML/Assets/Imagen/pokemon.jpg" alt="Foto de un pokemon" width="600" height="400">
+
+    <figure>
+        <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/02/pokemon-espanita-2630321.jpg?tf=3840x" 
+        alt="pokemon españa" width="600" height="300">
+        <figcaption><strong>Foto de Dragonite español</strong></figcaption>
+
+    </figure>
+    <!--Intentar evitar esta manera de ponerlo: -->
+    <h3>Audio</h3>
+    <audio src="../HTML/Assets/Audio/audio.flac" controls>
+        Lo siento, tu navegador no acepta audio.
+    </audio>
+    <!--Manera profesional: -->
+    <audio controls autoplay>
+        <source src="../HTML/Assets/Audio/audio.flac">
+        <source src="../HTML/Assets/Audio/audio.mp3">
+        <source src="../HTML/Assets/Audio/audio.ogg">
+        Lo siento, tu navegador no acepta audio.
+    </audio>
+    <h3>Video</h3>
+
+    <video controls autoplay>
+        <source src="../HTML/Assets/Video/video.mov">
+        <source src="../HTML/Assets/Video/video.webm">
+        Lo siento, tu navegador no acepta audio.
+    </video>
+
+    <h3>Imagenes de varios tamaños</h3>
+
+    <figure>
+        <picture>
+           <source srcset="../HTML/Assets/Imagen/image600x400.png" media="(min-width: 1200px)" >
+           <source srcset="../HTML/Assets/Imagen/image300x200.png" media="(min-width: 800px)">
+           <source srcset="../HTML/Assets/Imagen/image150x100.png" media="(min-width: 600px)">
+           <img src="../HTML/Assets/Imagen/image600x400.png" alt="imagenes de tamaños">
+        </picture>
+         <figcaption><strong>Esta imagen cambia dependiendo el ancho de la pantalla</strong></figcaption>
+    </figure>
+
+</body>
+</html>
