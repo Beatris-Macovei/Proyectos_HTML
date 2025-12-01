@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <form method="post">
+        <!-- NO tiene cierre (no tiene </input>)-->
+        <!-- Representa cuadro de entrada de texto-->
+        <form>
+            <fieldset align="center">
+                <legend><strong>Información personal</strong></legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required="nombre"> 
+                <br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" value="Sin apellido">
+                <br>
+                <label for="fecha">Fecha de nacimiento:</label>
+                <input type="date" id="cumpleanos" name="cumpleanos">
+                <br>
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" min="18" max="120" step="1" required="edad" value="18">
+                <br>
+                <p><em>Inicia sesión</em></p>
+                <label for="correo">Email:</label>
+                <input type="email" id="correo" name="correo" required placeholder="correo@gmail.com">
+                <br>
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required="contraseña">
+                <br>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="+34">
+                <br>
+                <label for="school">Instituto:</label>
+                <input type="text" id="school" name="school" value="IES Enrique Tierno Galvan" disabled>
+                <br>
+                <label for="course">Curso:</label>
+                <select name="curso" id="curso">
+                <optgroup label="curso">
+                <option value="ESO">1ºESO</option>
+                <option value="ESO">2ºESO</option>
+                <option value="ESO">3ºESO</option>
+                <option value="ESO">4ºESO</option>
+                <option value="BACH">1ºBACH SOCIALES</option>
+                <option value="BACH">1ºBACH HUMANIDADES</option>
+                <option value="BACH">1ºBACH CIENCIAS</option>
+                <option value="BACH">2ºBACH SOCIALES</option>
+                <option value="BACH">2ºBACH HUMANIDADES</option>
+                <option value="BACH">2ºBACH CIENCIAS</option>
+                <option value="GRADO BASICO">INFORMATICA Y COMUNICACIONES</option>
+                <option value="GRADO BASICO">MANTENIMIENTO DE VEHICULOS</option>
+                <option value="GRADO MEDIO">ELECTROMECANICA DE VEHICULOS</option>
+                <option value="GRADO MEDIO">CARROCERIA</option>
+                <option value="GRADO MEDIO">INSTALACIONES ELECTRICAS Y AUTOMATICAS</option>
+                <option value="GRADO MEDIO">INSTALACIONES DE PRODUCCION DE CALOR E INSTALACIONES FRIGORIFICAS Y DE CLIMATICACION</option>
+                <option value="GRADO MEDIO">SISTEMAS MICROINFORMATICOS Y REDES (SMR)</option>
+                <option value="GRADO SUPERIOR">AUTOMOCION</option>
+                <option value="GRADO SUPERIOR">ADMINISTRACION DE SISTEMAS INFORMATICOS EN RED</option>
+                <option value="GRADO SUPERIOR">DAW</option>
+                <option value="GRADO SUPERIOR">DAM</option>
+                <option value="GRADO SUPERIOR">EFICIENCIA ELECTRONICA Y ENERGIA SOLAR TERMICA</option>
+                <option value="GRADO SUPERIOR">MANTENIMIENTO DE INSTALACIONES TERMICAS Y DE FLUIDOS</option>
+                </optgroup>
+                </select>
+                <br>
+                <p><em>Selecciona tu color favorito:</em></p>
+                <label for="color-favorito">Color favorito:</label>
+                <input type="color" id="color-favorito" name="color-favorito" value= red> <!-- Puedes elegir el color-->
+                <p><em>Selecciona tu género:</em></p>
+                <input type="radio" id="hombre" name="genero" value="hombre">
+                <label for="hombre">Hombre</label>
+                <br>
+                <input type="radio" id="mujer" name="genero" value="mujer">
+                <label for="mujer">Mujer</label>
+                <br>
+                <input type="radio" id="otro" name="genero" value="otro">
+                <label for="otro">Otro</label>
+                <br>
+                <p><em>Selecciona tus intereses:</em></p>
+                <input type="checkbox" id="tech" name="intereses" value="tecnologia">
+                <label for="tech">Tecnología</label>
+                <br>
+                <input type="checkbox" id="deportes" name="intereses" value="deportes">
+                <label for="deportes">Deportes</label>
+                <br>
+                <input type="checkbox" id="musica" name="intereses" value="musica">
+                <label for="musica">Música</label>
+                <br>
+                <input type="checkbox" id="peliculas" name="intereses" value="peliculas">
+                <label for="peliculas">Peliculas</label>
+                <br>
+                <p><em>Selecciona tu pais:</em></p>
+                <label for="pais">País:</label>
+                <select id="pais" name="pais">
+                <option value="es">España</option>
+                <option value="fr">Francia</option>
+                <option value="eeuu">Estados Unidos</option>
+                <option value="prt">Portugal</option>
+                </select>
+            </fieldset>
+            <fieldset align="center">
+                <legend><strong>Archivos</strong></legend>
+                <br>
+                <label for="archivos"><em>Subir archivos:</em></label>
+                <input type="file" id="archivos" name="archivos" accept="image/*" accept=".pdf">
+            </fieldset>
+            <fieldset align="center">
+                <legend><strong>Comentarios</strong></legend>
+                    <label for="opinion">Danos tu opinion</label>
+                    <br>
+                    <textarea id="opinion" name="opinion" rows="5" cols="33"></textarea>
+                    
+            </fieldset>
+                <input type="submit" value="Enviar Formulario">
+                <br>
+                <input type="reset" value="Resetear formulario"></p>
+        </form>
+    </form>
+    
+</body>
+</html>
