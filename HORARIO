@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+
+        <!-- Informacion que no se renderiza -->
+        <title>Mi primer HTML semantico</title>
+        <meta charset="UTF-8">
+
+    </head>
+
+    <body>
+        <!-- Todo lo que se muestra en la pagina -->
+         <header align="center">
+            <h1>Horario Clase</h1>
+         </header>
+         <main>
+            <table border="1" align="center">
+                <tr>
+                    <th colspan="2">Horas</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+                <tr>
+                    <td>8:30</td>
+                    <td>9:25</td>
+                    <td rowspan="2" align="center">IPE</td>
+                    <td rowspan="2" align="center">BBDD</td>
+                    <td rowspan="2" align="center">Comp Nube</td>
+                    <td>Lenguaje de marcas</td>
+                    <td rowspan="2" align="center">Sistemas</td>
+
+
+                </tr>
+                <tr>
+                    <td>9:25</td>
+                    <td>10:20</td>
+                    <td align="center">IPE</td>
+                </tr>
+                <tr>
+                    <td>10:20</td>
+                    <td>11:15</td>
+                    <td colspan="2" align="center">Programación</td>
+                    <td align="center">BBDD</td>
+                    <td align="center">Sistemas</td>
+                    <td align="center">BBDD</td>
+                </tr>
+                <tr>
+                    <td>11:15</td>
+                    <td>11:45</td>
+                    <td colspan="5" align="center">recreo</td>
+                </tr>
+                <tr>
+                    <td>11:45</td>
+                    <td>12:40</td>
+                    <td colspan="2" align="center">Programación</td>
+                    <td align="center">BBDD</td>
+                    <td align="center">Sistemas</td>
+                    <td align="center">BDD</td>
+                </tr>
+                <tr>
+                    <td>12:40</td>
+                    <td>13:35</td>
+                    <td rowspan="2" align="center">Lenguaje de marcas</td>
+                    <td rowspan="2" align="center">Sistemas</td>
+                    <td colspan="2" rowspan="2" align="center">Programación</td>
+                    <td rowspan="2" align="center">Entornos</td>
+                </tr>
+                <tr>
+                    <td>13:35</td>
+                    <td>14:30</td>
+                </tr>
+
+                <caption>Lista de asignaturas</caption>
+
+
+            </table>
+
+
+
+
+
+
+         </main>
+
+<!--  bgcolor="green" para colorear casillas-->
