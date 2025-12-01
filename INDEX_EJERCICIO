@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio</title>
+    </head>
+    <body>
+        <header>
+            <h1>Mi Blog de Viajes</h1>
+        </header>
+            <nav>
+                <ul>
+                    <li><a href="inicio.html" target="_blank">Inicio</a></li>
+                    <li><a href="destino.html" target="_blank">Destino</a></li>
+                    <li><a href="galeria.html" target="_blank">Galeria</a></li>
+                    <li><a href="contacto.html" target="_blank">Contacto</a></li>
+                    <li><a href="descarga.html" target="_blank">Descarga PDF</a></li>
+                </ul>
+            </nav>
+        <main>
+            <h2>Últimos Artículos</h2>
+            <h3>Aventura en los Alpes Suizos</h3>
+            <p>Publicado el 15 de Enero, 2024</p>
+            <p>Descubriendo las montañas más impresionantes de Europa...</p>
+            <button>Leer mas</button>
+            <h3>Gastronomía Japonesa: Más que Sushi</h3>
+            <p>Publicado el 10 de Enero, 2024</p>
+            <p>Explorando los sabores tradicionales de Japón...</p>
+            <button>Leer mas</button>
+            <h2>Suscríbete a nuestro Newsletter</h2>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+            <br>
+            <label for="correo">Correo electronico:</label>
+            <input type="email" id="correo" name="correo" placeholder="tu@email.com">
+            <br>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="+34 600 000 000">
+            <br>
+            <label for="destino">Destino de interés:</label>
+                <select name="destino" id="destino">
+                    <optgroup>
+                        <option>Selecciona un destino</option>
+                        <option value="euro">Europa</option>
+                        <option value="asia">Asia</option>
+                        <option value="americ">America</option>
+                        <option value="ocean">Oceania</option>
+                    </optgroup>
+                </select>
+            <br>
+            <input type="checkbox" id="terminos" name="terminos" value="terminos">
+            <label for="terminos">Acepto los términos y condiciones</label>
+            <br>
+            <button type="submit">Suscribirse</button>
+            <button type="reset">Limpiar formulario</button>
+        </main>
+        <footer>
+            <p><small>© 2024 Mi Blog de Viajes. Todos los derechos reservados.</small></p>
+            <p><a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            <a href="https://www.twitter.com/" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a></p>
+        </footer>
+    </body>
+</html>
