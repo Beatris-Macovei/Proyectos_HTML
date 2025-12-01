@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <TITLE>Listas</TITLE>
+    <meta charset="UFT-8">
+
+</head>
+
+<body>
+    <h1>Listas</h1>
+    <h3>Listas no ordenadas</h3>
+
+    <ul>
+        
+        <li>Lengua de marcas</li>
+        <li>Sistemas</li>
+        <li>Programacion</li>
+        <li>Entornos</li>
+        <li>IPE I</li>
+        <li>Base de datos</li>
+        <li>Comp. nube</li>
+
+    <p>En Lenguaje de marcas ahora estoy dando html</p>
+
+    <p>Mis TOP 3 asignaturas de momento son:</p>
+
+    <ol>
+
+        <li>Lenguaje de marcas</li>
+        <li>IPE I</li>
+        <li>Programacion</li>
+
+    </ol>
+
+    </ul>
+
+
+</body>
+</html>
