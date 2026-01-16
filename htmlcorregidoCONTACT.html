@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        
+    </head>
+    <body>
+        <header>
+                <h1>Contacto</h1>
+        </header>
+        <form method="get" action="#">
+            <!--Datos personales-->
+
+            <h2 id="seccion1">Sección 1</h2>
+            <fieldset>
+                <legend>Datos personales</legend>
+                    <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required minlength="3" maxlength="20"> 
+                    <br>
+                    <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" value="Sin apellido" required minlength="3" maxlength="20">
+                    <br>
+                    <label for="fecha">Fecha de nacimiento:</label>
+                        <input type="date" id="fecha" name="cumpleanos">
+                    <br>
+                    <label for="edad">Edad</label>
+                        <input type="number" id="edad" name="edad" min="0" max="120">
+                    <br>
+                    <label for="color-favorito">Color favorito:</label>
+                        <input type="color" id="color-favorito" name="color-favorito" value="red">
+                    <br>
+                    <input type="file" id="archivos" name="archivos" accept=".pdf">
+                    <p><em>Selecciona tu género:</em></p>
+                    <input type="radio" id="hombre" name="genero" value="hombre">
+                        <label for="hombre">Hombre</label>
+                    <br>
+                    <input type="radio" id="mujer" name="genero" value="mujer">
+                        <label for="mujer">Mujer</label>
+                    <br>
+
+            </fieldset>
+
+            <!--Inicio de sesion por si quiere seguir la pagina-->
+            <a href="#seccion1">Volver al inicio de la Sección 1</a>
+            <h2 id="seccion2">Sección 2</h2>
+            <fieldset>
+                <legend>Inicia sesion</legend>
+                    <label for="correo">Email:</label>
+                        <input type="email" id="correo" name="correo" required placeholder="correo@gmail.com"> <a href="mailto:tu_correo@ejemplo.com">Envíanos un correo</a>
+                    <br>
+                    <label for="contraseña">Contraseña:</label>
+                        <input type="password" id="contraseña" name="contrasena" required pattern="[A-Za-záéíóúÁÉÍÓÚñÑ\s]{2,30}">
+                    <br>
+                    <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="+34" pattern="[6789][0-9]{8}" title="9 dígitos, empieza por 6,7,8,9">
+                    <br>
+                    <label for="pais">País:</label>
+                    <select id="pais" name="pais">
+                        <option value="es">España</option>
+                        <option value="fr">Francia</option>
+                        <option value="pl">Portugal</option>
+                        <option value="ot">Otro</option>
+                    </select>
+
+            </fieldset>
+            <a href="#seccion2">Volver al inicio de la Sección 2</a>
+
+            <!--Opinion sobre la pagina e intereses-->
+            <h2 id="seccion3">Sección 3</h2>
+            <fieldset>
+                <legend>Opinion</legend>
+                    <label for="URL">URL</label>
+                        <input type="url" id="URL" name="URL">
+                    <br>
+                    <label for="rango">Rango de satisfaccion:</label>
+                        <input type="range" id="rango" name="rang" min="0" max="100" step="5" >
+                    <br>
+                    <label for="opinion">Danos tu opinion</label>
+                    <br>
+                    <textarea id="opinion" name="opinion" rows="20" cols="200"></textarea>
+                    <p><em>Selecciona tus intereses en generos de peliculas y series:</em></p>
+                        <input type="checkbox" id="terr" name="intereses" value="terror">
+                        <label for="terr">Terror</label>
+                    <br>
+                        <input type="checkbox" id="com" name="intereses" value="comedia">
+                        <label for="com">Comedia</label>
+                    <br>
+                        <input type="checkbox" id="dram" name="intereses" value="drama">
+                        <label for="dram">Drama</label>
+                    <br>
+                        <input type="checkbox" id="rom" name="intereses" value="romance">
+                        <label for="rom">Romance</label>
+                    <br>
+                        <input type="checkbox" id="thri" name="intereses" value="Thriller">
+                        <label for="thri">Thriller</label>
+                    <br>
+                        <input type="checkbox" id="sf" name="intereses" value="cienciafiction">
+                        <label for="sf">Ciencia Ficcion</label>
+                    <br>
+                    <p>Plataformas que tienes:</p>
+                    <select name="plataforma" id="plat" multiple size="4">
+                    <optgroup label="Tienes">
+                        <option value="dwec">Netflix</option>
+                        <option value="dwec">HBO MAX</option>
+                        <option value="dwec">Prime Video</option>
+                        <option value="dwec">Atresplayer</option>
+                        <option value="dwec">Disney+</option>
+                        <option value="dwec">Apple TV</option>
+                        <option value="dwec">Movistar Plus</option>
+                    </optgroup>
+                    </select>
+                    <p>Plataformas que has tienes:</p>
+                    <select name="plataforma" id="plata" multiple size="4">
+                    <optgroup label="Has tenido">
+                        <option value="dwec">Netflix</option>
+                        <option value="dwec">HBO MAX</option>
+                        <option value="dwec">Prime Video</option>
+                        <option value="dwec">Atresplayer</option>
+                        <option value="dwec">Disney+</option>
+                        <option value="dwec">Apple TV</option>
+                        <option value="dwec">Movistar Plus</option>
+                    </optgroup>
+                    </select>
+            </fieldset>
+            <a href="#seccion3">Volver al inicio de la Sección 3</a>
+
+            <input type="submit" value="Enviar Formulario">
+                    
+            <input type="reset" value="Resetear formulario"></p>
+
+            <!--Redes sociales ficticias-->
+
+            <p>Siguenos en nuestras redes sociales:</p>
+            <p>Instragram:<a href="..." target="_blank">Pelisreseñas_1234</a></p>
+            <p>Twitter:<a href="..." target="_blank">Pelis.Series_reseñas</a></p>
+
+            <footer>Pagina con proteccion de datos</footer>
+        </form>
+    </body>
+</html>
