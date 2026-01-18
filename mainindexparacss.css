@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #131313;
+    background-color: #ececec;
+}
+
+.site-header {
+    background-color: #3c0000;
+    color: black;
+    top: 0;
+    padding: 10px;
+    text-align: center;
+}
+.site-header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.main-nav {
+    background-color: #3c0000;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.nav-list li{
+    padding: 10px;
+}
+.nav-list a{
+    margin: 20px;
+    padding: 10px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    background-color: #960018;
+    border-radius: 3px;;
+    padding: 5px;
+}
+.inicio-pagina {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.main-content {
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.main-content p {
+    padding: 10px 0;
+}
+
+.main-content a { 
+    background-color: #960018;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.main-content a:hover {
+    background-color: #cb4c46;
+}
+.main-content aside {
+    background-color: rgb(233, 222, 222);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.reseña-pagina {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reseñas-section {
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+.reseñas-section aside {
+    background-color: rgb(233, 222, 222);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.reseñas-section ul {
+    margin: 20px;
+    list-style: none;
+}
+.reseñas-section li {
+    margin: 10px 0;
+}
+
+.resaltar-pelis {
+    border-bottom: 2px solid #c70505;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    font-weight: bold; 
+}
+
+.section-reseñas { 
+    background-color: #960018;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.section-reseñas:hover {
+    background-color: #cb4c46;
+}
+.peliculas {
+    font-weight: bold;
+}
+.list-pelis {
+    background-color: rgb(230, 229, 229);
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+
+.series {
+    font-weight: bold;
+}
+
+.list-series {
+    background-color: rgb(230, 229, 229);
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+
+.resaltar-series {
+    border-bottom: 2px solid #c70505;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    font-weight: bold; 
+}
+
+.definiciones {
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.definiciones-pagina {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.definiciones dl {
+    margin: 20px;
+}
+.definiciones dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.definicion-section {
+    background-color: #960018;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+    margin: 5px 0;
+}
+.definicion-section:hover {
+    background-color: #cb4c46;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3c0000;
+    color: black;
+    font-weight: bold;
+}
