@@ -52,6 +52,7 @@ body {
 .inicio-pagina {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 3rem;
 }
 .content-wrapper {
     padding: 10px;
@@ -60,6 +61,10 @@ body {
 .primer-bloque {
     display: flex;
     gap: 20px;
+}
+
+.titulo-info {
+    font-size: 2rem;
 }
 
 .main-content {
@@ -85,11 +90,34 @@ body {
 .main-content a:hover {
     background-color: #cb4c46;
 }
-.main-content aside {
+.sidebar {
     background-color: rgb(233, 222, 222);
     border-radius: 5px;
     padding: 10px;
     margin: 10px 0;
+}
+.sidebar {
+    font-size: 1.2rem;
+}
+
+.info-section {
+    background-color: rgb(230, 229, 229);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.organizacion-section {
+    background-color: rgb(230, 229, 229);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 30px 0;
+}
+.organizacion-section ul {
+    margin: 25px;
+}
+.organizacion-section h3 {
+    font-size: 1.5rem;
 }
 
 .reseña-pagina {
@@ -203,5 +231,3 @@ footer {
 
 
 
-/*flex-direction:column;*/
-/*Lo pone en modo vertical la pagina*/
