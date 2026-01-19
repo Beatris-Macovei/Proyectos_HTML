@@ -54,16 +54,20 @@ body {
     margin-bottom: 20px;
 }
 .content-wrapper {
-    display: flex;
-    flex-direction: column;
     padding: 10px;
+}
+
+.primer-bloque {
+    display: flex;
+    gap: 20px;
 }
 
 .main-content {
     background-color: white;
     padding: 15px;
-    margin: 15px 0;
+    margin: 15px 60px;
     border-radius: 8px;
+    line-height: 2;
 }
 
 .main-content p {
@@ -195,3 +199,9 @@ footer {
     color: black;
     font-weight: bold;
 }
+
+
+
+
+/*flex-direction:column;*/
+/*Lo pone en modo vertical la pagina*/
