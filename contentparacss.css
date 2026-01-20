@@ -127,3 +127,110 @@ body {
     font-size: 1.5rem;
     border-left: 5px solid #630000;
 }
+
+.trailers-content h2{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.trailers-content {
+    background-color: rgb(230, 229, 229);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.trailers-video {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.trailer1 {
+    background-color: rgb(235, 205, 205);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.trailer2 {
+    background-color: rgb(235, 205, 205);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.trailer3 {
+    background-color: rgb(235, 205, 205);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.trailer4 {
+    background-color: rgb(235, 205, 205);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.trailer5 {
+    background-color: rgb(235, 205, 205);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.trailer6 {
+    background-color: rgb(235, 205, 205);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.plataformas-content {
+    background-color: rgb(230, 229, 229);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.plataformas-content h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px;
+}
+
+.imagen figcaption {
+    text-align: center;
+    margin: 5px;
+    font-weight: bold;
+    background-color: rgb(240, 144, 144);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.imagen-net {
+    background-color: rgb(235, 205, 205);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.imagen-prime {
+    background-color: rgb(235, 205, 205);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.imagen-dis {
+    background-color: rgb(235, 205, 205);
+    padding: 20px;
+    border-radius: 5px;
+}
