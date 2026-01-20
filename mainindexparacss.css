@@ -12,14 +12,18 @@ body {
 
 .site-header {
     background-color: #3c0000;
-    color: black;
+    color: white;
     top: 0;
-    padding: 10px;
+    padding: 30px;
     text-align: center;
 }
 .site-header h1 {
     margin: 0;
     font-size: 2em;
+    background-color: #630000;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 10px 10px rgba(216, 146, 146, 0.438);
 }
 
 .main-nav {
@@ -32,7 +36,7 @@ body {
     justify-content: center;
 }
 .nav-list li{
-    padding: 10px;
+    padding: 20px;
 }
 .nav-list a{
     margin: 20px;
@@ -47,12 +51,15 @@ body {
 .nav-list a:hover {
     background-color: #960018;
     border-radius: 3px;;
-    padding: 5px;
+    padding: 10px;
 }
 .inicio-pagina {
     text-align: center;
     margin-bottom: 20px;
     font-size: 3rem;
+    background-color: rgb(233, 222, 222);
+    border-radius: 5px;
+    padding: 10px;
 }
 .content-wrapper {
     padding: 10px;
@@ -60,7 +67,6 @@ body {
 
 .primer-bloque {
     display: flex;
-    gap: 20px;
 }
 
 .titulo-info {
@@ -70,7 +76,7 @@ body {
 .main-content {
     background-color: white;
     padding: 15px;
-    margin: 15px 60px;
+    margin: 15px 30px;
     border-radius: 8px;
     line-height: 2;
 }
@@ -90,13 +96,19 @@ body {
 .main-content a:hover {
     background-color: #cb4c46;
 }
+.sidebar-not {
+    background-color: rgb(233, 222, 222);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    display: inline-block;
+}
 .sidebar {
     background-color: rgb(233, 222, 222);
     border-radius: 5px;
     padding: 10px;
     margin: 10px 0;
-}
-.sidebar {
     font-size: 1.2rem;
 }
 
@@ -128,7 +140,7 @@ body {
 .reseñas-section {
     background-color: white;
     padding: 15px;
-    margin: 15px 0;
+    margin: 15px 30px;
     border-radius: 8px;
 }
 .reseñas-section aside {
@@ -192,7 +204,7 @@ body {
 .definiciones {
     background-color: white;
     padding: 15px;
-    margin: 15px 0;
+    margin: 15px 20px;
     border-radius: 8px;
 }
 
@@ -222,12 +234,8 @@ body {
 
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 30px;
     background-color: #3c0000;
     color: black;
     font-weight: bold;
 }
-
-
-
-
