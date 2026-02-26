@@ -1,0 +1,15 @@
+Nombre, tipo, generacion (numero), ataque (subdocumento con nombre, potencia, precision y descripcion), evoluciones (array)
+
+{
+  "name": "Charizard",
+  "tipo": [ "fuego", "volador" ],
+  "generacion": 1,
+  "ataque": {
+    "nombre": "Lanzallamas",
+    "potencia": "85",
+    "precision": "100",
+    "descripcion": "Ataque con una gran ráfaga de fuego que puede causar quemaduras."
+  }
+  "evoluciones": [ "MegaCharizard X", "Charizard Gigamax" ],
+  "habilidades": [ "Mar llamas", "Poder solar" ]
+}
