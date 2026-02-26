@@ -1,0 +1,24 @@
+{
+  "name": "Eladio Carrion",
+  "age": 31,
+  "active": true,
+  "genres": [ "trap", "reggeton", "rnb" ]
+  "LastAlbum": {
+    "name": "DON KBRON",
+    "year": 2025
+  },
+  "albums": [
+    {
+      "name": "Sol Maria",
+      "year": 2012
+    },
+    {
+      "name": "Sauce boyz",
+      "year": 2013
+    },
+    {
+      "name": "Primero",
+      "year": 2000
+    },
+  ]
+}
