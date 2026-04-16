@@ -1,0 +1,25 @@
+{
+    "name": "Guiso de lentejas",
+    "time": 120.3,
+    "ready": true,
+    "steps": ["lavar", "picar patatas",["calentar el fuego", "poner al fuego"]],
+    "pan": {
+        "diametre": 3.6,
+        "material": "hierro"
+    },
+    "ingredients": [
+        {
+            "name": "sal",
+            "quantity": 2
+        },
+        {
+            "name": "lentejas",
+            "quantity": 5
+        },
+        {
+            "name": "patatas",
+            "quantity": 1
+        }
+
+    ]
+}
