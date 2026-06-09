@@ -1,0 +1,124 @@
+Recorrer nodos
+Bucle por todos los nodos
+<xsl:for-each
+ select="
+//alumno
+">
+Solo los que cumplan condición
+<xsl:for-each
+ select="
+//alumno[grupo='DAW2']
+">
+Delegar a template propio
+<xsl:apply-templates
+ select="
+//alumno
+"/>
+Template que recibe los nodos
+<xsl:template
+ match="
+alumno
+"> ... 
+</xsl:template>
+
+
+
+Ordenar
+Por nota, mayor a menor
+<xsl:sort
+ select="
+nota
+" data-type="
+number
+" order="
+descending
+"/>
+Por texto alfabético
+<xsl:sort
+ select="
+nombre
+" data-type="
+text
+" order="
+ascending
+"/>
+Va dentro de <xsl:apply-templates> o <xsl:for-each>, antes del contenido
+
+
+
+Variables y atributos dinámicos
+Declarar variable
+<xsl:variable
+ name="
+clase
+">aprobado
+</xsl:variable>
+Usar variable en atributo
+<tr class="
+{$clase}
+">
+Atributo dinámico (xsl:attribute)
+<xsl:attribute
+ name="
+class
+">
+<xsl:value-of
+ select="
+grupo
+"/>
+</xsl:attribute>
+
+
+
+Funciones XPath comunes
+Contar nodos
+count(
+//alumno
+)
+Sumar valores
+sum(
+//nota
+)
+Media
+sum(
+//nota
+) div count(
+//alumno
+)
+Formatear número (2 decimales)
+format-number(
+$media
+, '
+0.##
+')
+Primeros N caracteres
+substring(
+observaciones
+, 1, 20)
+Posición actual en bucle
+position()  →  1, 2, 3…
+Último elemento del bucle
+last()
+Leer atributo XML
+select="
+centro/@nombre
+"
+
+
+
+Mayor/menor que
+>  <  >=  <=   (en XML escapa: 
+&gt;
+ o usa > directo)
+Igual / distinto
+=   !=
+Y / O
+and   or
+Filtro en select
+//alumno[
+grupo = 'DAW2'
+]
+Varios filtros
+//alumno[
+grupo='DAW2' and nota >= 5
+]
