@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="empleados_json.xsl" type="text/xsl"?>
+<empresa nombre="TechCorp">
+    <empleado id="E001" departamento="desarrollo" jornada="completa">
+        <nombre>Laura Sánchez</nombre>
+        <puesto>Desarrolladora Senior</puesto>
+        <salario>42000</salario>
+        <anyosExperiencia>7</anyosExperiencia>
+        <perfil>Especialista en backend con experiencia en Java y Python</perfil>
+    </empleado>
+    <empleado id="E002" departamento="diseno" jornada="completa">
+        <nombre>Carlos Méndez</nombre>
+        <puesto>UX Designer</puesto>
+        <salario>35000</salario>
+        <anyosExperiencia>4</anyosExperiencia>
+        <perfil>Diseñador centrado en accesibilidad y experiencia de usuario</perfil>
+    </empleado>
+    <empleado id="E003" departamento="desarrollo" jornada="completa">
+        <nombre>Marta Iglesias</nombre>
+        <puesto>Frontend Developer</puesto>
+        <salario>38000</salario>
+        <anyosExperiencia>5</anyosExperiencia>
+        <perfil>Experta en React y CSS avanzado con proyectos internacionales</perfil>
+    </empleado>
+    <empleado id="E004" departamento="rrhh" jornada="parcial">
+        <nombre>Tomás Blanco</nombre>
+        <puesto>Técnico RRHH</puesto>
+        <salario>9000</salario>
+        <anyosExperiencia>2</anyosExperiencia>
+        <perfil>Gestión de nóminas y procesos de selección de personal</perfil>
+    </empleado>
+</empresa>
